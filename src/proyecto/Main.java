@@ -47,8 +47,8 @@ static int op, i;
       System.out.println("!_Enter data of the invoice ");
       System.out.println("2_Show data of the invoice");
       System.out.println("3_Sum total ");
-      System.out.println("4_Salir ");
-      System.out.println("Cual es su Opcion ");
+      System.out.println("4_Exit ");
+      System.out.println("what is your option ");
       op = Integer.parseInt(tc.readLine());
       switch (op) {
         case 1:
