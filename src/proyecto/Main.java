@@ -44,9 +44,9 @@ static int op, i;
     System.out.println(t1.Tipo());
     do {
       System.out.println("Menu principal ");
-      System.out.println("!_Entrar datos de la Factura ");
-      System.out.println("2_Mostrar datos de la Factura ");
-      System.out.println("3_Suma Total ");
+      System.out.println("!_Enter data of the invoice ");
+      System.out.println("2_Show data of the invoice");
+      System.out.println("3_Sum total ");
       System.out.println("4_Salir ");
       System.out.println("Cual es su Opcion ");
       op = Integer.parseInt(tc.readLine());
