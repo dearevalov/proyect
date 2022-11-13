@@ -32,6 +32,8 @@ static int op, i;
 
     System.out.println("Bienvenidos al programa de facturas ");
     System.out.println("Escuela Tecnologica Tecnico central");
+        System.out.println("Programadores : Daniel Arévalo, Camila Beltran, Juan Diego Correa y Nicolas Moreno");
+
     System.out.println("Programadores : Daniel Arévalo, Camila Beltran, Juan Diego Correa y Nicolas Moreno");
     Tecnologia t1 = Fabrica.construir("Computador");
     System.out.println("");
@@ -77,6 +79,7 @@ static int op, i;
             System.out.println("Marca " + (i + 1) +
                 " es " + mr[i]);
             System.out.println("Nombre del Cliente " + (i + 1) + " es " + nomc[i]);
+            
             System.out.println("Precio del Extintor " + (i + 1) + " es " + prex[i]);
             System.out.println("Precio del Iva " + (i + 1) + " es " + pria[i]);
             System.out.println("Precio de Reacarga mitad de año " + (i + 1) + " es " + pcrc[i]);
